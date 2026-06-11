@@ -2,7 +2,7 @@
 title: Multimodal Finance Assistant
 emoji: 🤖
 colorFrom: blue
-colorTo: teal
+colorTo: indigo
 sdk: streamlit
 sdk_version: 1.40.1
 app_file: app/main.py
