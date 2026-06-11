@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0015",
+  "invoice_date": "2026-03-14",
+  "due_date": "2026-05-28",
+  "vendor_name": "Johnson-Harvey",
+  "vendor_address": "3895 Hess Extension Suite 895, Robinfurt, ME 32343",
+  "vendor_email": "michaelsharp@rocha.net",
+  "customer_name": "Stephanie Rivas",
+  "customer_address": "556 Charles Plain Apt. 991, Maloneview, MN 52418",
+  "line_items": [
+    {
+      "description": "Facilitate Next-Generation Methodologies",
+      "quantity": 10,
+      "unit_price": 432.95,
+      "amount": 4329.5
+    },
+    {
+      "description": "Re-Intermediate Transparent E-Commerce",
+      "quantity": 10,
+      "unit_price": 436.98,
+      "amount": 4369.8
+    },
+    {
+      "description": "Incubate B2C Initiatives",
+      "quantity": 7,
+      "unit_price": 368.51,
+      "amount": 2579.57
+    }
+  ],
+  "subtotal": 11278.87,
+  "tax_rate": 0.18,
+  "tax_amount": 2030.2,
+  "total_amount": 13309.07,
+  "currency": "USD",
+  "payment_method": "Bank Transfer",
+  "status": "Paid"
+}

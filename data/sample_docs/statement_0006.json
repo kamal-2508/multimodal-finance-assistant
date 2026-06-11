@@ -1,0 +1,78 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0006",
+  "statement_date": "2026-05-24",
+  "account_holder": "Sandra Cox",
+  "card_last_four": "8167",
+  "previous_balance": 3948.43,
+  "payments_received": 417.2,
+  "new_charges": 2826.25,
+  "taxes_and_fees": 8.42,
+  "total_due": 6357.48,
+  "transactions": [
+    {
+      "date": "2026-04-14",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 470.76,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-21",
+      "merchant": "Spotify",
+      "description": "Music streaming subscription",
+      "amount": 74.49,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-26",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 300.39,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-06-03",
+      "merchant": "Delta Airlines",
+      "description": "Flight booking",
+      "amount": 411.45,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-30",
+      "merchant": "Amazon Web Services",
+      "description": "Cloud computing usage charge",
+      "amount": 167.79,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-06-08",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 454.59,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-22",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 98.53,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 382.34,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Zoom Video",
+      "description": "Video conferencing subscription",
+      "amount": 465.91,
+      "category": "Shopping"
+    }
+  ],
+  "currency": "USD"
+}

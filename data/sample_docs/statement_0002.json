@@ -1,0 +1,85 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0002",
+  "statement_date": "2026-05-19",
+  "account_holder": "Patricia Davidson",
+  "card_last_four": "6098",
+  "previous_balance": 1661.28,
+  "payments_received": 504.12,
+  "new_charges": 2867.04,
+  "taxes_and_fees": 6.88,
+  "total_due": 4024.2,
+  "transactions": [
+    {
+      "date": "2026-05-28",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 432.89,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-05-07",
+      "merchant": "Spotify",
+      "description": "Music streaming subscription",
+      "amount": 209.41,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-27",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 345.38,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Zoom Video",
+      "description": "Video conferencing subscription",
+      "amount": 302.14,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-17",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 112.74,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-18",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 471.24,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-24",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 218.07,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-03-26",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 254.86,
+      "category": "Food"
+    },
+    {
+      "date": "2026-05-20",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 123.6,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-03-28",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 396.71,
+      "category": "Technology"
+    }
+  ],
+  "currency": "USD"
+}

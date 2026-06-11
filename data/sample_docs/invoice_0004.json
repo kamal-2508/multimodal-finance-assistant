@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0004",
+  "invoice_date": "2026-03-29",
+  "due_date": "2026-05-15",
+  "vendor_name": "Hernandez and Sons",
+  "vendor_address": "2039 Barker Dam, Campbellstad, PR 58494",
+  "vendor_email": "gabrielcastro@fletcher-rodriguez.com",
+  "customer_name": "William Schmidt",
+  "customer_address": "784 Gill Oval, North Norma, MI 89731",
+  "line_items": [
+    {
+      "description": "Empower Frictionless Functionalities",
+      "quantity": 7,
+      "unit_price": 184.64,
+      "amount": 1292.48
+    },
+    {
+      "description": "Integrate Dynamic Partnerships",
+      "quantity": 7,
+      "unit_price": 422.22,
+      "amount": 2955.54
+    },
+    {
+      "description": "Engineer Collaborative Convergence",
+      "quantity": 7,
+      "unit_price": 212.74,
+      "amount": 1489.18
+    }
+  ],
+  "subtotal": 5737.2,
+  "tax_rate": 0.05,
+  "tax_amount": 286.86,
+  "total_amount": 6024.06,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Paid"
+}

@@ -1,0 +1,78 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0004",
+  "statement_date": "2026-05-16",
+  "account_holder": "Mark Simpson",
+  "card_last_four": "1872",
+  "previous_balance": 1273.89,
+  "payments_received": 521.38,
+  "new_charges": 2971.6,
+  "taxes_and_fees": 22.6,
+  "total_due": 3724.11,
+  "transactions": [
+    {
+      "date": "2026-05-30",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 423.57,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-03",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 101.62,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 432.71,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-17",
+      "merchant": "Amazon Web Services",
+      "description": "Cloud computing usage charge",
+      "amount": 391.3,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-05-07",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 433.5,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 340.76,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-24",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 285.11,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-03-15",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 180.06,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-19",
+      "merchant": "Amazon Web Services",
+      "description": "Cloud computing usage charge",
+      "amount": 382.97,
+      "category": "Shopping"
+    }
+  ],
+  "currency": "USD"
+}

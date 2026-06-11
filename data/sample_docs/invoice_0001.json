@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0001",
+  "invoice_date": "2026-05-10",
+  "due_date": "2026-05-23",
+  "vendor_name": "Harvey, Smith and Williams",
+  "vendor_address": "9441 Tucker Prairie, Lake Brandonberg, WV 57913",
+  "vendor_email": "kelliott@jones.net",
+  "customer_name": "Joseph Patrick",
+  "customer_address": "73922 Robin Shores, East Tina, DC 61905",
+  "line_items": [
+    {
+      "description": "Grow Compelling Solutions",
+      "quantity": 4,
+      "unit_price": 431.06,
+      "amount": 1724.24
+    },
+    {
+      "description": "Envisioneer Frictionless Roi",
+      "quantity": 2,
+      "unit_price": 332.92,
+      "amount": 665.84
+    },
+    {
+      "description": "Reinvent Plug-And-Play E-Tailers",
+      "quantity": 6,
+      "unit_price": 367.81,
+      "amount": 2206.86
+    }
+  ],
+  "subtotal": 4596.94,
+  "tax_rate": 0.1,
+  "tax_amount": 459.69,
+  "total_amount": 5056.63,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Overdue"
+}

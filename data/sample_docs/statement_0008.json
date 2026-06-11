@@ -1,0 +1,78 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0008",
+  "statement_date": "2026-06-09",
+  "account_holder": "Amy Hill",
+  "card_last_four": "3861",
+  "previous_balance": 4538.42,
+  "payments_received": 351.68,
+  "new_charges": 2670.83,
+  "taxes_and_fees": 9.57,
+  "total_due": 6857.57,
+  "transactions": [
+    {
+      "date": "2026-03-28",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 392.32,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-25",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 389.82,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-17",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 281.76,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-05-30",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 455.74,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-30",
+      "merchant": "Amazon Web Services",
+      "description": "Cloud computing usage charge",
+      "amount": 71.96,
+      "category": "Food"
+    },
+    {
+      "date": "2026-03-15",
+      "merchant": "Spotify",
+      "description": "Music streaming subscription",
+      "amount": 384.69,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-05-18",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 276.08,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-04-10",
+      "merchant": "Spotify",
+      "description": "Music streaming subscription",
+      "amount": 316.5,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 101.96,
+      "category": "Technology"
+    }
+  ],
+  "currency": "USD"
+}

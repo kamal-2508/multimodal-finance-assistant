@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0011",
+  "invoice_date": "2026-04-14",
+  "due_date": "2026-05-23",
+  "vendor_name": "Petersen LLC",
+  "vendor_address": "280 Gary Dam Suite 893, West Davidville, MA 63322",
+  "vendor_email": "tguzman@vaughan.info",
+  "customer_name": "Holly Rosales DDS",
+  "customer_address": "499 Travis Plains, Hamptonside, SD 46318",
+  "line_items": [
+    {
+      "description": "Leverage End-To-End Metrics",
+      "quantity": 5,
+      "unit_price": 295.42,
+      "amount": 1477.1
+    },
+    {
+      "description": "Engage One-To-One Synergies",
+      "quantity": 4,
+      "unit_price": 360.71,
+      "amount": 1442.84
+    },
+    {
+      "description": "Drive Virtual Roi",
+      "quantity": 8,
+      "unit_price": 211.84,
+      "amount": 1694.72
+    }
+  ],
+  "subtotal": 4614.66,
+  "tax_rate": 0.1,
+  "tax_amount": 461.47,
+  "total_amount": 5076.13,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Unpaid"
+}

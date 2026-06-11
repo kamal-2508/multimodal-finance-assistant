@@ -1,0 +1,157 @@
+# ─────────────────────────────────────────────────────────────────────────────
+# .github/workflows/ci-cd.yml
+#
+# WHY THIS FILE EXISTS:
+#   This is our CI/CD (Continuous Integration / Continuous Deployment) pipeline.
+#   Every time code is pushed to GitHub, this runs automatically to:
+#     1. Run all pytest tests (CI) — catches bugs before they reach production
+#     2. Check code formatting with black (code quality)
+#     3. Deploy to Hugging Face Spaces (CD) — only on main branch merges
+#
+# WHY CI/CD MATTERS FOR YOUR RESUME:
+#   It shows you understand production software practices, not just notebooks.
+#   Recruiters specifically look for this in ML engineers.
+#
+# HOW TO SET UP:
+#   1. Go to GitHub repo → Settings → Secrets and Variables → Actions
+#   2. Add secret: HF_TOKEN (get from huggingface.co/settings/tokens)
+#   3. Add secret: GROQ_API_KEY (for test runs that need the LLM)
+#   4. Update HF_USERNAME and HF_SPACE_NAME below
+# ─────────────────────────────────────────────────────────────────────────────
+
+name: CI/CD Pipeline
+
+# WHEN THIS RUNS:
+# - On every push to any branch (runs tests)
+# - On every pull request to main (runs tests before merging)
+on:
+  push:
+    branches: ["**"]           # All branches get tested
+  pull_request:
+    branches: ["main"]         # PRs to main get extra scrutiny
+
+# ── Environment variables available to all jobs ───────────────────────────────
+env:
+  PYTHON_VERSION: "3.11"
+  # Change these to your actual HF username and space name
+  HF_USERNAME: "your-hf-username"
+  HF_SPACE_NAME: "multimodal-finance-assistant"
+
+jobs:
+
+  # ── Job 1: Run tests ─────────────────────────────────────────────────────────
+  test:
+    name: Run Tests
+    runs-on: ubuntu-latest   # Use GitHub's free Ubuntu runner
+
+    steps:
+      # Step 1: Download the code from GitHub
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # Step 2: Set up Python environment
+      - name: Set up Python ${{ env.PYTHON_VERSION }}
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+          cache: "pip"    # Cache pip packages to speed up future runs
+
+      # Step 3: Install dependencies
+      - name: Install dependencies
+        run: |
+          pip install --upgrade pip
+          pip install -r requirements.txt
+          # Install test-only dependencies
+          pip install pytest pytest-cov black
+
+      # Step 4: Check code formatting with black
+      # WHY BLACK: Enforces consistent code style across the team.
+      # --check means "check but don't modify" — fails if code isn't formatted
+      - name: Check code formatting (black)
+        run: |
+          black --check app/ tests/ data/ --line-length 100
+        continue-on-error: true   # Don't fail the whole pipeline for style issues
+
+      # Step 5: Run pytest with coverage report
+      # WHY COVERAGE: Shows what percentage of code is tested.
+      # --cov=app means measure coverage of the app/ directory
+      - name: Run tests with coverage
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}   # Injected from GitHub Secrets
+        run: |
+          pytest tests/ -v \
+            --cov=app \
+            --cov-report=term-missing \
+            --cov-report=xml:coverage.xml \
+            -x   # Stop on first failure (faster feedback)
+
+      # Step 6: Upload coverage report as artifact
+      # This lets you download and view the HTML coverage report
+      - name: Upload coverage report
+        uses: codecov/codecov-action@v4
+        if: always()   # Upload even if tests fail
+        with:
+          file: ./coverage.xml
+          fail_ci_if_error: false
+
+  # ── Job 2: Deploy to HF Spaces (only on main branch) ─────────────────────────
+  deploy:
+    name: Deploy to Hugging Face Spaces
+    runs-on: ubuntu-latest
+    needs: test   # Only deploy if tests PASS
+
+    # IMPORTANT: Only run deployment when pushing to main
+    # This prevents deploying broken code from feature branches
+    if: github.ref == 'refs/heads/main' && github.event_name == 'push'
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0   # Fetch full history for better git operations
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Install huggingface_hub
+        run: pip install huggingface_hub
+
+      # Deploy by pushing to HF Space's git repository
+      # HF Spaces are backed by git repos — pushing triggers a rebuild
+      - name: Push to Hugging Face Spaces
+        env:
+          HF_TOKEN: ${{ secrets.HF_TOKEN }}   # Your HF write token
+        run: |
+          python - <<'EOF'
+          from huggingface_hub import HfApi
+          import os
+
+          api = HfApi(token=os.environ["HF_TOKEN"])
+
+          # Upload entire repository to the HF Space
+          api.upload_folder(
+              folder_path=".",
+              repo_id=f"{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}",
+              repo_type="space",
+              # Ignore files that shouldn't go to HF Spaces
+              ignore_patterns=[
+                  ".git*",
+                  "__pycache__",
+                  "*.pyc",
+                  ".env",           # NEVER upload .env (contains secrets)
+                  "tests/",
+                  "*.egg-info",
+                  "data/chroma_store/",   # Don't upload local ChromaDB
+              ],
+          )
+          print("✅ Successfully deployed to Hugging Face Spaces!")
+          print(f"🔗 View at: https://huggingface.co/spaces/{os.environ['HF_USERNAME']}/{os.environ['HF_SPACE_NAME']}")
+          EOF
+
+      # Notify on successful deployment
+      - name: Deployment summary
+        run: |
+          echo "## 🚀 Deployment Successful!" >> $GITHUB_STEP_SUMMARY
+          echo "Deployed to: https://huggingface.co/spaces/${{ env.HF_USERNAME }}/${{ env.HF_SPACE_NAME }}" >> $GITHUB_STEP_SUMMARY

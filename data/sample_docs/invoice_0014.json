@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0014",
+  "invoice_date": "2026-03-25",
+  "due_date": "2026-06-09",
+  "vendor_name": "Owens Ltd",
+  "vendor_address": "5679 Jimenez Fields Suite 185, West Christophermouth, NE 55538",
+  "vendor_email": "fhoffman@perry-robinson.net",
+  "customer_name": "James Rangel",
+  "customer_address": "721 Katherine Views Apt. 792, Rachelfort, PW 34747",
+  "line_items": [
+    {
+      "description": "Evolve User-Centric Markets",
+      "quantity": 8,
+      "unit_price": 423.58,
+      "amount": 3388.64
+    },
+    {
+      "description": "Disintermediate Real-Time Portals",
+      "quantity": 7,
+      "unit_price": 208.04,
+      "amount": 1456.28
+    }
+  ],
+  "subtotal": 4844.92,
+  "tax_rate": 0.05,
+  "tax_amount": 242.25,
+  "total_amount": 5087.17,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Overdue"
+}

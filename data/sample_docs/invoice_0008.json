@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0008",
+  "invoice_date": "2026-03-19",
+  "due_date": "2026-05-12",
+  "vendor_name": "Anderson-Smith",
+  "vendor_address": "668 Jones Mountain Apt. 055, Port Charles, TX 01423",
+  "vendor_email": "jsullivan@barton.org",
+  "customer_name": "Christian Wood",
+  "customer_address": "38485 Robertson Shoal, Phillipsstad, CA 23382",
+  "line_items": [
+    {
+      "description": "Monetize Virtual Convergence",
+      "quantity": 10,
+      "unit_price": 214.01,
+      "amount": 2140.1
+    },
+    {
+      "description": "Unleash Magnetic Relationships",
+      "quantity": 9,
+      "unit_price": 374.25,
+      "amount": 3368.25
+    }
+  ],
+  "subtotal": 5508.35,
+  "tax_rate": 0.18,
+  "tax_amount": 991.5,
+  "total_amount": 6499.85,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Paid"
+}

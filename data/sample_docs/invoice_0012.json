@@ -1,0 +1,50 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0012",
+  "invoice_date": "2026-04-28",
+  "due_date": "2026-05-29",
+  "vendor_name": "Taylor and Sons",
+  "vendor_address": "PSC 9270, Box 4487, APO AE 11767",
+  "vendor_email": "jacobstheresa@garrett-burnett.biz",
+  "customer_name": "Jonathan Baldwin",
+  "customer_address": "722 John Well, West Matthewtown, OH 67981",
+  "line_items": [
+    {
+      "description": "Re-Contextualize Open-Source Channels",
+      "quantity": 3,
+      "unit_price": 179.95,
+      "amount": 539.85
+    },
+    {
+      "description": "E-Enable Leading-Edge Mindshare",
+      "quantity": 8,
+      "unit_price": 397.54,
+      "amount": 3180.32
+    },
+    {
+      "description": "Target Collaborative Relationships",
+      "quantity": 6,
+      "unit_price": 92.92,
+      "amount": 557.52
+    },
+    {
+      "description": "Syndicate Bricks-And-Clicks Interfaces",
+      "quantity": 3,
+      "unit_price": 79.6,
+      "amount": 238.8
+    },
+    {
+      "description": "Brand Sticky Paradigms",
+      "quantity": 7,
+      "unit_price": 22.59,
+      "amount": 158.13
+    }
+  ],
+  "subtotal": 4674.62,
+  "tax_rate": 0.1,
+  "tax_amount": 467.46,
+  "total_amount": 5142.08,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Unpaid"
+}

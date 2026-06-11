@@ -1,0 +1,78 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0005",
+  "statement_date": "2026-05-13",
+  "account_holder": "Alexandra Bradford",
+  "card_last_four": "8555",
+  "previous_balance": 4968.98,
+  "payments_received": 584.87,
+  "new_charges": 2262.42,
+  "taxes_and_fees": 13.16,
+  "total_due": 6646.53,
+  "transactions": [
+    {
+      "date": "2026-03-13",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 219.39,
+      "category": "Food"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 85.07,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-05-05",
+      "merchant": "Amazon Web Services",
+      "description": "Cloud computing usage charge",
+      "amount": 260.68,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-03-23",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 239.68,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-05-19",
+      "merchant": "Zoom Video",
+      "description": "Video conferencing subscription",
+      "amount": 196.23,
+      "category": "Food"
+    },
+    {
+      "date": "2026-05-21",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 287.84,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-06-06",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 280.76,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-05-21",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 440.81,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-05-14",
+      "merchant": "Delta Airlines",
+      "description": "Flight booking",
+      "amount": 251.96,
+      "category": "Technology"
+    }
+  ],
+  "currency": "USD"
+}

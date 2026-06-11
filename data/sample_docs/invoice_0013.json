@@ -1,0 +1,50 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0013",
+  "invoice_date": "2026-05-06",
+  "due_date": "2026-06-04",
+  "vendor_name": "Cooper, Williams and Thomas",
+  "vendor_address": "36307 Christina Fork, North Jacob, AL 32868",
+  "vendor_email": "lindamatthews@hill.info",
+  "customer_name": "David Cooper",
+  "customer_address": "4943 Morris Road Suite 839, North Davidport, NM 78208",
+  "line_items": [
+    {
+      "description": "Visualize Vertical Paradigms",
+      "quantity": 1,
+      "unit_price": 29.43,
+      "amount": 29.43
+    },
+    {
+      "description": "Streamline Clicks-And-Mortar Initiatives",
+      "quantity": 5,
+      "unit_price": 305.71,
+      "amount": 1528.55
+    },
+    {
+      "description": "Drive Frictionless Mindshare",
+      "quantity": 6,
+      "unit_price": 100.42,
+      "amount": 602.52
+    },
+    {
+      "description": "Engineer Back-End E-Commerce",
+      "quantity": 7,
+      "unit_price": 324.22,
+      "amount": 2269.54
+    },
+    {
+      "description": "Leverage Cross-Platform Interfaces",
+      "quantity": 2,
+      "unit_price": 147.41,
+      "amount": 294.82
+    }
+  ],
+  "subtotal": 4724.86,
+  "tax_rate": 0.18,
+  "tax_amount": 850.47,
+  "total_amount": 5575.33,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Paid"
+}

@@ -1,0 +1,64 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0001",
+  "statement_date": "2026-06-03",
+  "account_holder": "Katie Williams",
+  "card_last_four": "5345",
+  "previous_balance": 2115.91,
+  "payments_received": 986.74,
+  "new_charges": 1583.4,
+  "taxes_and_fees": 11.52,
+  "total_due": 2712.57,
+  "transactions": [
+    {
+      "date": "2026-05-22",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 203.92,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-04-17",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 61.01,
+      "category": "Food"
+    },
+    {
+      "date": "2026-06-07",
+      "merchant": "Amazon Web Services",
+      "description": "Cloud computing usage charge",
+      "amount": 200.72,
+      "category": "Food"
+    },
+    {
+      "date": "2026-04-06",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 415.92,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-03-30",
+      "merchant": "Zoom Video",
+      "description": "Video conferencing subscription",
+      "amount": 45.63,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-10",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 408.8,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-04-29",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 247.4,
+      "category": "Shopping"
+    }
+  ],
+  "currency": "USD"
+}

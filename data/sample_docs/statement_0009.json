@@ -1,0 +1,71 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0009",
+  "statement_date": "2026-05-17",
+  "account_holder": "Judy Ellison",
+  "card_last_four": "7648",
+  "previous_balance": 2966.63,
+  "payments_received": 535.98,
+  "new_charges": 3082.6,
+  "taxes_and_fees": 9.79,
+  "total_due": 5513.25,
+  "transactions": [
+    {
+      "date": "2026-05-26",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 465.4,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-03-16",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 499.75,
+      "category": "Food"
+    },
+    {
+      "date": "2026-05-06",
+      "merchant": "Spotify",
+      "description": "Music streaming subscription",
+      "amount": 368.26,
+      "category": "Food"
+    },
+    {
+      "date": "2026-05-13",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 370.21,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-24",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 123.71,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-05-12",
+      "merchant": "Delta Airlines",
+      "description": "Flight booking",
+      "amount": 495.46,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-06-03",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 471.85,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-03-25",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 287.96,
+      "category": "Entertainment"
+    }
+  ],
+  "currency": "USD"
+}

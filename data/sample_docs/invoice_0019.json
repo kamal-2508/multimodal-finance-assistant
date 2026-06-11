@@ -1,0 +1,44 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0019",
+  "invoice_date": "2026-04-21",
+  "due_date": "2026-06-08",
+  "vendor_name": "Clark, Davis and Thomas",
+  "vendor_address": "25543 Allen Drive, Michaelberg, WI 73925",
+  "vendor_email": "wrightcassidy@miller-woods.com",
+  "customer_name": "Andrea Williams",
+  "customer_address": "51529 Boyle Common, Lake Jeremy, MD 83601",
+  "line_items": [
+    {
+      "description": "Incubate Intuitive Niches",
+      "quantity": 3,
+      "unit_price": 284.96,
+      "amount": 854.88
+    },
+    {
+      "description": "E-Enable Granular E-Business",
+      "quantity": 6,
+      "unit_price": 314.67,
+      "amount": 1888.02
+    },
+    {
+      "description": "Evolve B2B Bandwidth",
+      "quantity": 8,
+      "unit_price": 75.52,
+      "amount": 604.16
+    },
+    {
+      "description": "E-Enable Integrated Info-Mediaries",
+      "quantity": 3,
+      "unit_price": 24.88,
+      "amount": 74.64
+    }
+  ],
+  "subtotal": 3421.7,
+  "tax_rate": 0.18,
+  "tax_amount": 615.91,
+  "total_amount": 4037.61,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Paid"
+}

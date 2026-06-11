@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0017",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-05-12",
+  "vendor_name": "Payne-Jones",
+  "vendor_address": "2810 Emma Burg Suite 725, Carpenterfurt, TN 42899",
+  "vendor_email": "ylong@williams-murphy.net",
+  "customer_name": "Philip Carroll",
+  "customer_address": "8343 Rebecca Throughway, Gregoryland, GA 53949",
+  "line_items": [
+    {
+      "description": "Envisioneer Compelling Partnerships",
+      "quantity": 1,
+      "unit_price": 147.65,
+      "amount": 147.65
+    },
+    {
+      "description": "Re-Contextualize Customized Info-Mediaries",
+      "quantity": 1,
+      "unit_price": 179.51,
+      "amount": 179.51
+    }
+  ],
+  "subtotal": 327.16,
+  "tax_rate": 0.18,
+  "tax_amount": 58.89,
+  "total_amount": 386.05,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Paid"
+}

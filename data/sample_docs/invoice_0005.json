@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0005",
+  "invoice_date": "2026-04-05",
+  "due_date": "2026-05-22",
+  "vendor_name": "Gill PLC",
+  "vendor_address": "2264 Parks Manors, Davisview, DE 34745",
+  "vendor_email": "garcher@petty.biz",
+  "customer_name": "Ricky West",
+  "customer_address": "014 Sarah Brook, Port Benjamin, NY 10688",
+  "line_items": [
+    {
+      "description": "Strategize Extensible Supply-Chains",
+      "quantity": 5,
+      "unit_price": 288.62,
+      "amount": 1443.1
+    },
+    {
+      "description": "Reinvent Integrated Roi",
+      "quantity": 9,
+      "unit_price": 435.82,
+      "amount": 3922.38
+    }
+  ],
+  "subtotal": 5365.48,
+  "tax_rate": 0.05,
+  "tax_amount": 268.27,
+  "total_amount": 5633.75,
+  "currency": "USD",
+  "payment_method": "Bank Transfer",
+  "status": "Unpaid"
+}

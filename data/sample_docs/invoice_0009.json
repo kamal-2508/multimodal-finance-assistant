@@ -1,0 +1,50 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0009",
+  "invoice_date": "2026-06-09",
+  "due_date": "2026-06-05",
+  "vendor_name": "Atkinson-Wilson",
+  "vendor_address": "513 Yvonne Points Suite 334, West Katherinefurt, NE 72989",
+  "vendor_email": "castanedasara@zavala.com",
+  "customer_name": "Noah Scott",
+  "customer_address": "5293 Wesley Inlet, East Heather, IA 68759",
+  "line_items": [
+    {
+      "description": "Facilitate Transparent E-Commerce",
+      "quantity": 4,
+      "unit_price": 227.08,
+      "amount": 908.32
+    },
+    {
+      "description": "Optimize Integrated Functionalities",
+      "quantity": 3,
+      "unit_price": 236.28,
+      "amount": 708.84
+    },
+    {
+      "description": "Streamline End-To-End E-Markets",
+      "quantity": 6,
+      "unit_price": 40.67,
+      "amount": 244.02
+    },
+    {
+      "description": "Optimize B2C Interfaces",
+      "quantity": 7,
+      "unit_price": 107.02,
+      "amount": 749.14
+    },
+    {
+      "description": "E-Enable Intuitive Eyeballs",
+      "quantity": 8,
+      "unit_price": 42.98,
+      "amount": 343.84
+    }
+  ],
+  "subtotal": 2954.16,
+  "tax_rate": 0.1,
+  "tax_amount": 295.42,
+  "total_amount": 3249.58,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Overdue"
+}

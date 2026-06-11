@@ -1,0 +1,50 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0010",
+  "invoice_date": "2026-05-09",
+  "due_date": "2026-06-03",
+  "vendor_name": "Patterson and Sons",
+  "vendor_address": "193 Wallace Parks, East Nicolefort, AR 24280",
+  "vendor_email": "jean64@cain.com",
+  "customer_name": "Robert Armstrong",
+  "customer_address": "93455 Jeremy Street, New Davidport, MP 56882",
+  "line_items": [
+    {
+      "description": "Redefine Extensible Markets",
+      "quantity": 9,
+      "unit_price": 93.06,
+      "amount": 837.54
+    },
+    {
+      "description": "Evolve Magnetic Networks",
+      "quantity": 6,
+      "unit_price": 179.49,
+      "amount": 1076.94
+    },
+    {
+      "description": "Embrace Cross-Media Channels",
+      "quantity": 3,
+      "unit_price": 194.39,
+      "amount": 583.17
+    },
+    {
+      "description": "Synergize Robust Functionalities",
+      "quantity": 5,
+      "unit_price": 31.53,
+      "amount": 157.65
+    },
+    {
+      "description": "Unleash Seamless Models",
+      "quantity": 1,
+      "unit_price": 489.66,
+      "amount": 489.66
+    }
+  ],
+  "subtotal": 3144.96,
+  "tax_rate": 0.05,
+  "tax_amount": 157.25,
+  "total_amount": 3302.21,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Overdue"
+}

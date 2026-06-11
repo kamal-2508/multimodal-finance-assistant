@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0016",
+  "invoice_date": "2026-04-28",
+  "due_date": "2026-05-18",
+  "vendor_name": "Glass Ltd",
+  "vendor_address": "996 Melissa Walks, Lanehaven, TN 63970",
+  "vendor_email": "richardsmichelle@gonzalez-nguyen.com",
+  "customer_name": "Dana Cook",
+  "customer_address": "PSC 0436, Box 0665, APO AA 96888",
+  "line_items": [
+    {
+      "description": "Morph Dynamic Vortals",
+      "quantity": 3,
+      "unit_price": 424.69,
+      "amount": 1274.07
+    },
+    {
+      "description": "Disintermediate Holistic Info-Mediaries",
+      "quantity": 9,
+      "unit_price": 190.79,
+      "amount": 1717.11
+    }
+  ],
+  "subtotal": 2991.18,
+  "tax_rate": 0.18,
+  "tax_amount": 538.41,
+  "total_amount": 3529.59,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Overdue"
+}

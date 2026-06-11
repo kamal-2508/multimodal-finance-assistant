@@ -1,0 +1,57 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0010",
+  "statement_date": "2026-05-20",
+  "account_holder": "Jeffery Hall",
+  "card_last_four": "5177",
+  "previous_balance": 1058.75,
+  "payments_received": 496.52,
+  "new_charges": 2242.65,
+  "taxes_and_fees": 11.59,
+  "total_due": 2804.88,
+  "transactions": [
+    {
+      "date": "2026-06-09",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 213.63,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-01",
+      "merchant": "GitHub",
+      "description": "Developer tools subscription",
+      "amount": 397.54,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-23",
+      "merchant": "Zoom Video",
+      "description": "Video conferencing subscription",
+      "amount": 422.03,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-05-01",
+      "merchant": "Uber Eats",
+      "description": "Food delivery service",
+      "amount": 389.53,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-04-15",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 380.02,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-09",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 439.9,
+      "category": "Food"
+    }
+  ],
+  "currency": "USD"
+}

@@ -1,0 +1,71 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0007",
+  "statement_date": "2026-05-26",
+  "account_holder": "Sergio Pena",
+  "card_last_four": "9648",
+  "previous_balance": 3730.8,
+  "payments_received": 717.74,
+  "new_charges": 2315.56,
+  "taxes_and_fees": 23.72,
+  "total_due": 5328.62,
+  "transactions": [
+    {
+      "date": "2026-05-22",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 414.79,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-05-26",
+      "merchant": "Zoom Video",
+      "description": "Video conferencing subscription",
+      "amount": 391.23,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-04-15",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 465.03,
+      "category": "Food"
+    },
+    {
+      "date": "2026-05-31",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 311.03,
+      "category": "Food"
+    },
+    {
+      "date": "2026-05-01",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 111.11,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-06",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 41.78,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-03-13",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 182.43,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-03-26",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 398.16,
+      "category": "Technology"
+    }
+  ],
+  "currency": "USD"
+}

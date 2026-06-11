@@ -1,0 +1,99 @@
+{
+  "document_type": "credit_card_statement",
+  "statement_id": "STMT-0003",
+  "statement_date": "2026-05-16",
+  "account_holder": "Rachel Doyle",
+  "card_last_four": "9182",
+  "previous_balance": 2226.69,
+  "payments_received": 570.73,
+  "new_charges": 3272.37,
+  "taxes_and_fees": 24.85,
+  "total_due": 4928.33,
+  "transactions": [
+    {
+      "date": "2026-05-08",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 238.7,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-05-03",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 477.12,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-05-21",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 170.79,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-08",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 186.59,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-03-14",
+      "merchant": "Netflix",
+      "description": "Monthly streaming subscription",
+      "amount": 397.44,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-03-16",
+      "merchant": "Google Cloud",
+      "description": "Storage and compute services",
+      "amount": 265.56,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-06-10",
+      "merchant": "Whole Foods Market",
+      "description": "Grocery purchase",
+      "amount": 142.77,
+      "category": "Travel"
+    },
+    {
+      "date": "2026-04-27",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 302.68,
+      "category": "Technology"
+    },
+    {
+      "date": "2026-03-20",
+      "merchant": "Delta Airlines",
+      "description": "Flight booking",
+      "amount": 391.05,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-05-10",
+      "merchant": "Adobe Creative Cloud",
+      "description": "Software subscription",
+      "amount": 387.97,
+      "category": "Entertainment"
+    },
+    {
+      "date": "2026-04-13",
+      "merchant": "Airbnb",
+      "description": "Accommodation booking",
+      "amount": 96.09,
+      "category": "Shopping"
+    },
+    {
+      "date": "2026-05-05",
+      "merchant": "Shell Gas Station",
+      "description": "Fuel purchase",
+      "amount": 215.61,
+      "category": "Technology"
+    }
+  ],
+  "currency": "USD"
+}

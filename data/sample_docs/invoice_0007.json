@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0007",
+  "invoice_date": "2026-04-17",
+  "due_date": "2026-05-17",
+  "vendor_name": "Scott Ltd",
+  "vendor_address": "2902 Joshua Brooks, West Janetmouth, RI 82071",
+  "vendor_email": "powellheather@stevens-cooley.com",
+  "customer_name": "Candace Vazquez",
+  "customer_address": "4303 Troy Spur Apt. 038, Huertabury, WI 73151",
+  "line_items": [
+    {
+      "description": "Whiteboard Bricks-And-Clicks Deliverables",
+      "quantity": 4,
+      "unit_price": 78.63,
+      "amount": 314.52
+    },
+    {
+      "description": "Cultivate One-To-One Paradigms",
+      "quantity": 5,
+      "unit_price": 143.9,
+      "amount": 719.5
+    }
+  ],
+  "subtotal": 1034.02,
+  "tax_rate": 0.1,
+  "tax_amount": 103.4,
+  "total_amount": 1137.42,
+  "currency": "USD",
+  "payment_method": "PayPal",
+  "status": "Unpaid"
+}

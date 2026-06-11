@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0018",
+  "invoice_date": "2026-03-30",
+  "due_date": "2026-06-11",
+  "vendor_name": "Jordan, Martinez and Ramirez",
+  "vendor_address": "23655 Alexander Parkways, Port Tracy, LA 41517",
+  "vendor_email": "sgonzalez@giles.info",
+  "customer_name": "William Robinson",
+  "customer_address": "764 Martin Square Apt. 834, Jacksonview, WV 94683",
+  "line_items": [
+    {
+      "description": "Cultivate Magnetic Functionalities",
+      "quantity": 5,
+      "unit_price": 47.74,
+      "amount": 238.7
+    },
+    {
+      "description": "Generate Proactive Communities",
+      "quantity": 10,
+      "unit_price": 462.38,
+      "amount": 4623.8
+    },
+    {
+      "description": "Visualize Proactive Bandwidth",
+      "quantity": 9,
+      "unit_price": 82.59,
+      "amount": 743.31
+    }
+  ],
+  "subtotal": 5605.81,
+  "tax_rate": 0.05,
+  "tax_amount": 280.29,
+  "total_amount": 5886.1,
+  "currency": "USD",
+  "payment_method": "Bank Transfer",
+  "status": "Paid"
+}

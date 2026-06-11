@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0002",
+  "invoice_date": "2026-03-30",
+  "due_date": "2026-05-15",
+  "vendor_name": "Griffin-Kaufman",
+  "vendor_address": "1562 Hoffman Terrace, West Angelaton, NC 55385",
+  "vendor_email": "xgomez@west.com",
+  "customer_name": "Alan Poole",
+  "customer_address": "145 Jeffrey Fall, Joymouth, SD 37791",
+  "line_items": [
+    {
+      "description": "Unleash Strategic E-Markets",
+      "quantity": 6,
+      "unit_price": 168.79,
+      "amount": 1012.74
+    },
+    {
+      "description": "Orchestrate Out-Of-The-Box E-Markets",
+      "quantity": 4,
+      "unit_price": 18.75,
+      "amount": 75.0
+    }
+  ],
+  "subtotal": 1087.74,
+  "tax_rate": 0.05,
+  "tax_amount": 54.39,
+  "total_amount": 1142.13,
+  "currency": "USD",
+  "payment_method": "Bank Transfer",
+  "status": "Unpaid"
+}

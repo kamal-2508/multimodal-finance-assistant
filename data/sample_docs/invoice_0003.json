@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0003",
+  "invoice_date": "2026-04-01",
+  "due_date": "2026-05-15",
+  "vendor_name": "Mccormick Group",
+  "vendor_address": "9115 Goodwin Grove Suite 080, Tylerton, WY 06882",
+  "vendor_email": "rachel98@lambert-jones.biz",
+  "customer_name": "Tara Castillo",
+  "customer_address": "4255 Farley Island, Jamestown, MN 91882",
+  "line_items": [
+    {
+      "description": "Empower Bricks-And-Clicks Interfaces",
+      "quantity": 6,
+      "unit_price": 91.35,
+      "amount": 548.1
+    },
+    {
+      "description": "Streamline One-To-One Supply-Chains",
+      "quantity": 8,
+      "unit_price": 140.06,
+      "amount": 1120.48
+    }
+  ],
+  "subtotal": 1668.58,
+  "tax_rate": 0.1,
+  "tax_amount": 166.86,
+  "total_amount": 1835.44,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Unpaid"
+}

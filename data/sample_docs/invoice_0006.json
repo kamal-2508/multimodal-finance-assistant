@@ -1,0 +1,38 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0006",
+  "invoice_date": "2026-04-30",
+  "due_date": "2026-06-02",
+  "vendor_name": "Lopez, Daniel and Sandoval",
+  "vendor_address": "43932 Leon Crescent, New Ericafurt, ND 59278",
+  "vendor_email": "hensonphilip@robinson.com",
+  "customer_name": "Ashley Dougherty",
+  "customer_address": "592 Elizabeth Flats, Port Kevinhaven, UT 62393",
+  "line_items": [
+    {
+      "description": "Scale Real-Time Markets",
+      "quantity": 3,
+      "unit_price": 261.06,
+      "amount": 783.18
+    },
+    {
+      "description": "Harness Frictionless Platforms",
+      "quantity": 3,
+      "unit_price": 113.89,
+      "amount": 341.67
+    },
+    {
+      "description": "Strategize Clicks-And-Mortar Deliverables",
+      "quantity": 10,
+      "unit_price": 13.13,
+      "amount": 131.3
+    }
+  ],
+  "subtotal": 1256.15,
+  "tax_rate": 0.05,
+  "tax_amount": 62.81,
+  "total_amount": 1318.96,
+  "currency": "USD",
+  "payment_method": "Bank Transfer",
+  "status": "Overdue"
+}

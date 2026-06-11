@@ -1,0 +1,32 @@
+{
+  "document_type": "invoice",
+  "invoice_number": "INV-0020",
+  "invoice_date": "2026-04-11",
+  "due_date": "2026-06-05",
+  "vendor_name": "Martinez, Collins and Fitzgerald",
+  "vendor_address": "USNV Rodriguez, FPO AE 09330",
+  "vendor_email": "snyderpamela@patterson.com",
+  "customer_name": "Rachel Ritter",
+  "customer_address": "99663 Sara Walk, Fitzgeraldstad, MN 98806",
+  "line_items": [
+    {
+      "description": "Incentivize Rich Info-Mediaries",
+      "quantity": 6,
+      "unit_price": 133.29,
+      "amount": 799.74
+    },
+    {
+      "description": "Embrace Virtual Relationships",
+      "quantity": 7,
+      "unit_price": 36.67,
+      "amount": 256.69
+    }
+  ],
+  "subtotal": 1056.43,
+  "tax_rate": 0.18,
+  "tax_amount": 190.16,
+  "total_amount": 1246.59,
+  "currency": "USD",
+  "payment_method": "Credit Card",
+  "status": "Paid"
+}
