@@ -1,3 +1,14 @@
+---
+title: Multimodal Finance Assistant
+emoji: 🤖
+colorFrom: blue
+colorTo: teal
+sdk: streamlit
+sdk_version: 1.40.1
+app_file: app/main.py
+pinned: false
+---
+
 # 🤖 Multimodal AI Financial Assistant
 
 > Upload a financial document (invoice, credit card statement, receipt) and ask natural language questions about it. Powered by LangChain + ChromaDB + Groq (free).
