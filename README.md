@@ -13,8 +13,8 @@ pinned: false
 
 > Upload a financial document (invoice, credit card statement, receipt) and ask natural language questions about it. Powered by LangChain + ChromaDB + Groq (free).
 
-[![CI/CD](https://github.com/YOUR_USERNAME/multimodal-finance-assistant/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/YOUR_USERNAME/multimodal-finance-assistant/actions)
-[![HF Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/YOUR_USERNAME/multimodal-finance-assistant)
+[![CI/CD](https://github.com/kamalrajn/multimodal-finance-assistant/actions/workflows/ci-cd.yml/badge.svg)](https://github.com/kamalrajn/multimodal-finance-assistant/actions)
+[![HF Space](https://img.shields.io/badge/🤗%20Hugging%20Face-Live%20Demo-blue)](https://huggingface.co/spaces/kamalrajn/multimodal-finance-assistant)
 [![Python](https://img.shields.io/badge/python-3.11-blue)](https://python.org)
 
 ## What it does
@@ -55,7 +55,7 @@ User uploads document
 
 ### 1. Clone and set up environment
 ```bash
-git clone https://github.com/YOUR_USERNAME/multimodal-finance-assistant
+git clone https://github.com/kamalrajn/multimodal-finance-assistant
 cd multimodal-finance-assistant
 python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
